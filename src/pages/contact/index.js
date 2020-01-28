@@ -32,7 +32,7 @@ const Index = () => {
 
   return (
     <Layout>
-      <section>
+      <div>
         <h1>Contact</h1>
         <form
           name="contact"
@@ -70,7 +70,7 @@ const Index = () => {
         </div>
         <button>Send</button>
         </form>
-      </section>
+      </div>
     </Layout>
   )
 }
