@@ -13,7 +13,7 @@ const BlogRoll = props => {
         <div key={post.id}>
           <article>
             <header>
-              <p>
+              <div>
                 <h3>
                   <Link to={post.fields.slug}>
                     {post.frontmatter.title}
@@ -23,7 +23,7 @@ const BlogRoll = props => {
                 <span>
                   {post.frontmatter.date}
                 </span>
-              </p>
+              </div>
             </header>
             <p>
               {post.excerpt}

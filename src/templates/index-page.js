@@ -11,12 +11,12 @@ export const IndexPageTemplate = ({
   mainpitch,
 }) => (
   <>
-    <header id="first">
+    <header>
       <h1>{title}</h1>
       <h2>{heading}</h2>
       <h3>{subheading}</h3>
     </header>
-    <section id="second">
+    <section>
       <h1>{mainpitch.title}</h1>
       <p>{mainpitch.description}</p>
     </section>

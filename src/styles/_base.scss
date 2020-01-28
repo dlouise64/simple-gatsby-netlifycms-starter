@@ -24,25 +24,7 @@ body {
 header, h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 800;
-}
-
-section > h1 {
   color: var(--main);
-}
-
-/* header styles */
-header {
-  font-weight: 400;
-}
-
-header h1 {
-  margin: 0;
-  font-weight: 400;
-  color: var(--main);
-}
-
-header h2 {
-  font-weight: 400;
 }
 
 main,
@@ -64,11 +46,11 @@ img {
   max-width: 100%;
 }
 
- a {
-   color: var(--primary);
-   text-decoration: none;
-   border-bottom: 1px solid var(--primary);
-   &:hover {
-     border: none;
-   }
- }
+a {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--primary);
+  &:hover {
+    border: none;
+  }
+}
